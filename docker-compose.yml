@@ -2,7 +2,7 @@ version: '3'
 
 services:
   odoo:
-    image: shermine237/odoo-gitlab:16
+    image: shermine237/odoo-gitlab:16.0
     ports:
       - "8069:8069"
     depends_on:
